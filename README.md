@@ -11,7 +11,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-![Node.js CI][node-shield]
 
 <!--
 *** [![MIT License][license-shield]][license-url]
@@ -21,7 +20,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/leonbeckert/wasdarfichde">
-    <img src="/client/public/logo192.png" alt="Logo" width="80" height="80">
+    <img src="/public/logo192.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">wasdarfich.de</h3>
@@ -162,15 +161,14 @@ Founders:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/leonbeckert/wasdarfichde.svg?style=flat-square
 [contributors-url]: https://github.com/leonbeckert/wasdarfichde/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/leonbeckert/wasdarfichde.svg?style=flat-square
 [forks-url]: https://github.com/leonbeckert/wasdarfichde/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/leonbeckert/wasdarfichde.svg?style=flat-square
 [stars-url]: https://github.com/leonbeckert/wasdarfichde/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/leonbeckert/wasdarfichde.svg?style=flat-square
 [issues-url]: https://github.com/leonbeckert/wasdarfichde/issues
-[license-shield]: https://img.shields.io/github/license/leonbeckert/repo.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/leonbeckert/wasdarfichde.svg?style=flat-square
 [license-url]: https://creativecommons.org/licenses/by/4.0/deed.de
 [product-screenshot]: images/screenshot.png
-[node-shield]: https://github.com/leonbeckert/wasdarfichde/workflows/Node.js%20CI/badge.svg?branch=main
