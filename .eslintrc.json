@@ -1,0 +1,158 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "plugins": [
+        "promise",
+        "prettier",
+        "react-redux",
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:promise/recommended",
+        "prettier",
+        "plugin:react/recommended",
+        "plugin:react-redux/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "rules": {
+        "block-scoped-var": "warn",
+        "brace-style": [
+            "error",
+            "1tbs",
+            {
+                "allowSingleLine": true
+            }
+        ],
+        "camelcase": [
+            "error"
+        ],
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "never",
+                "imports": "always-multiline",
+                "objects": "always-multiline"
+            }
+        ],
+        "comma-style": [
+            "error",
+            "last"
+        ],
+        "consistent-return": [
+            "error",
+            {
+                "treatUndefinedAsUnspecified": false
+            }
+        ],
+        "default-case": "error",
+        "default-case-last": "error",
+        "eol-last": [
+            "warn",
+            "always"
+        ],
+        "eqeqeq": [
+            "error",
+            "smart"
+        ],
+        "jsx-quotes": [
+            "error",
+            "prefer-double"
+        ],
+        "key-spacing": [
+            "error",
+            {
+                "afterColon": true,
+                "beforeColon": false
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "lines-between-class-members": [
+            "error",
+            "always"
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 80,
+                "comments": 120,
+                "ignoreTrailingComments": true,
+                "ignoreUrls": true,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true,
+                "ignoreRegExpLiterals": true
+            }
+        ],
+        "no-alert": "warn",
+        "no-floating-decimal": "warn",
+        "no-shadow": [
+            "warn",
+            {
+                "builtinGlobals": true
+            }
+        ],
+        "no-template-curly-in-string": "off",
+        "no-trailing-spaces": [
+            "error"
+        ],
+        "no-unreachable-loop": "warn",
+        "no-warning-comments": "warn",
+        "quote-props": [
+            "error",
+            "consistent-as-needed"
+        ],
+        "quotes": [
+            "error",
+            "double",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "require-jsdoc": [
+            "warn",
+            {
+                "require": {
+                    "FunctionDeclaration": true,
+                    "MethodDefinition": true,
+                    "ClassDeclaration": true,
+                    "ArrowFunctionExpression": false,
+                    "FunctionExpression": false
+                }
+            }
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "prettier/prettier": "warn",
+        "react/prop-types": "warn"
+    }
+}

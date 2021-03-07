@@ -1,0 +1,34 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": [
+            "jsdoc",
+            "closure"
+        ]
+    },
+    "source": {
+        "include": [
+            "."
+        ],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "node_modules"
+    },
+    "plugins": [
+        "plugins/markdown",
+        "better-docs/component",
+        "better-docs/category"
+    ],
+    "templates": {
+        "better-docs": {
+            "name": "Wasdarfich.de Backend"
+        },
+        "search": true
+    },
+    "opts": {
+        "destination": "docs",
+        "private": true,
+        "recurse": true,
+        "readme": "README.md",
+        "template": "node_modules/minami"
+    }
+}
