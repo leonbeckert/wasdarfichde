@@ -80,26 +80,27 @@ function SearchBar() {
     const fromDB = () =>
       axios
         .get("/city_index")
-        .then((data) => {
-          const cities = data.cities.map((item) =>
+        .then((response) => {
+          const cities = response.data.map((item) =>
             // Add the option label to the index,
             // this is necessary for a functional search
             Object.assign(item, { op: getOptionLabel(item) })
           );
-          store.set("cities", cities, true);
-          store.set("cities_timestamp", Date.now(), true);
+          store.set("city_index", cities, true);
+          store.set("city_index_timestamp", Date.now(), true);
           return cities;
         })
-        .catch(() => {
+        .catch((err) => {
+          console.error("Fetch city index from db failed due to", err);
           return [];
         });
 
     let citiesPromis;
     if (
-      store.has("cities") &&
-      Date.now() - store.get("cities_timestamp", 0) <= 60 * 60 * 1000
+      store.has("city_index") &&
+      Date.now() - store.get("city_index_timestamp", 0) <= 60 * 60 * 1000
     ) {
-      citiesPromis = Promise.resolve(store.get("cities"));
+      citiesPromis = Promise.resolve(store.get("city_index"));
     } else {
       citiesPromis = fromDB();
     }
@@ -155,7 +156,6 @@ function SearchBar() {
     if (typeof target !== "undefined") {
       router.push("/" + target.i);
     } else {
-      // TODO Replace with something a little nicer
       alert("Not found, please add the city manually");
     }
   };
