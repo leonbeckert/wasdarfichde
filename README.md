@@ -11,7 +11,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-![Node.js CI][node-shield]
 
 <!--
 *** [![MIT License][license-shield]][license-url]
@@ -173,4 +172,3 @@ Founders:
 [license-shield]: https://img.shields.io/github/license/leonbeckert/wasdarfichde.svg?style=flat-square
 [license-url]: https://creativecommons.org/licenses/by/4.0/deed.de
 [product-screenshot]: images/screenshot.png
-[node-shield]: https://github.com/leonbeckert/wasdarfichde/workflows/Node.js%20CI/badge.svg?branch=main
