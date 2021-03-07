@@ -100,14 +100,12 @@ git clone https://github.com/leonbeckert/wasdarfichde.git
 2. Install NPM packages
 
 ```sh
-cd client
 npm install
 ```
 
 3. Run development server
 
 ```sh
-cd client
 npm run dev
 ```
 
