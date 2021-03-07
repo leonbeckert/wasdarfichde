@@ -144,7 +144,8 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial-S
 
 ## Contact
 
-email: [contact@mucx.tech](mailto:contact@mucx.tech)
+team / business email: [contact@mucx.tech](mailto:contact@mucx.tech)
+other: [kontakt@wasdarfich.de](mailto:kontakt@wasdarfich.de)
 
 Project Link: [https://github.com/leonbeckert/wasdarfichde](https://github.com/leonbeckert/wasdarfichde)
 
