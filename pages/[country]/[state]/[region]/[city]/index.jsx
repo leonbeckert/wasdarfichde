@@ -164,9 +164,7 @@ export async function getServerSideProps(context) {
     axiosCountry;
   const { country, state, region, city } = context.params;
   await axios
-    .get(
-      `https://europe-west3-codericculumdotcom.cloudfunctions.net/api/get/${country}/${state}/${region}/${city}`
-    )
+    .get(`/get/${country}/${state}/${region}/${city}`)
     .then((res) => {
       axiosQuestions = res.data.questions;
       axiosAnswers = res.data.answers;

@@ -62,11 +62,6 @@ const BottomHomeNavBar = (props) => {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="/static/agb">
-                  <a className="link"> AGB </a>
-                </Link>
-              </Grid>
-              <Grid item>
                 <Link href="/static/datenschutz">
                   <a className="link"> Datenschutz </a>
                 </Link>

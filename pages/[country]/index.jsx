@@ -98,7 +98,7 @@ export async function getServerSideProps(context) {
   let axiosName, axiosStates;
   const { country } = context.params;
   await axios
-    .get(`/api/get/${country}`)
+    .get(`/get/${country}`)
     .then((res) => {
       axiosName = res.data.name;
       axiosStates = res.data.states;
